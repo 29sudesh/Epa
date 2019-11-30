@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/screen_bg"
+    tools:context=".RegistrationActivity" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txt_reg_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/prompt_user_name" />
+
+            <EditText
+                android:id="@+id/edt_reg_username"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_username"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/txt_reg_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_username"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_password" />
+
+            <EditText
+                android:id="@+id/edt_reg_password"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/txt_reg_verify_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_password"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_re_password" />
+
+            <EditText
+                android:id="@+id/edt_verify_password"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_verify_password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/txt_reg_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_verify_password"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_company" />
+
+            <AutoCompleteTextView
+                android:id="@+id/edt_reg_company"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_company"
+                android:dropDownHeight="200dp"
+                android:completionThreshold="1" />
+
+            <!-- <EditText -->
+            <!-- android:id="@+id/edt_reg_company" -->
+            <!-- style="@style/DefaultInputField" -->
+            <!-- android:layout_below="@id/txt_reg_company" -->
+            <!-- android:inputType="text" /> -->
+
+            <TextView
+                android:id="@+id/txt_reg_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_company"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_first_name" />
+
+            <EditText
+                android:id="@+id/edt_reg_first_name"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_first_name"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt_reg_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_first_name"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_last_name" />
+
+            <EditText
+                android:id="@+id/edt_reg_last_name"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_last_name"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt_reg_reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_last_name"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/reminder_question" />
+
+            <Spinner
+                android:id="@+id/spinner_reg_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_reg_reminder"
+                android:entries="@array/arrays_reminder_questions"
+                android:prompt="@string/select_reminder_question" />
+
+            <TextView
+                android:id="@+id/txt_reg_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner_reg_reminder"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_answer" />
+
+            <EditText
+                android:id="@+id/edt_reg_answer"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_answer"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt_reg_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_answer"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:text="@string/prompt_email" />
+
+            <EditText
+                android:id="@+id/edt_reg_email"
+                style="@style/DefaultInputField"
+                android:layout_below="@id/txt_reg_email"
+                android:inputType="textEmailAddress" />
+
+            <!-- <CheckBox -->
+            <!-- android:id="@+id/chk_reg_agree" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_below="@id/edt_reg_email" -->
+            <!-- android:layout_marginTop="@dimen/field_top_margin" -->
+            <!-- android:text="@string/agree_terms_conditions" -->
+            <!-- android:textColor="@color/black" /> -->
+
+            <LinearLayout
+                android:id="@+id/lnr_reg_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_reg_email"
+                android:layout_marginTop="@dimen/field_top_margin"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_reg_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/icon_checkbox" />
+
+                <TextView
+                    android:id="@+id/txt_reg_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="false"
+                    android:text="@string/agree_terms_conditions"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/txt_reg_company_code" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_below="@id/edt_reg_email" -->
+            <!-- android:layout_marginTop="@dimen/field_top_margin" -->
+            <!-- android:text="@string/company_code" /> -->
+
+
+            <!-- <Spinner -->
+            <!-- android:id="@+id/spinner_reg_company_code" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_below="@id/txt_reg_company_code" -->
+            <!-- android:entries="@array/company_arrays" -->
+            <!-- android:prompt="@string/prompt_company" /> -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lnr_reg_agree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_reg_submit"
+                    style="@style/GreenButton"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/btn_reg_reset"
+                    style="@style/BlueButton"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="@string/reset" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

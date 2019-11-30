@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EAP LifePilot</string>
+
+    <!-- App Headers -->
+    <string name="header_language">Language</string>
+    <string name="header_login">Login</string>
+    <string name="header_registration">Registration</string>
+    <string name="header_assesment">Assessment</string>
+    <string name="header_depression">My Depression</string>
+    <string name="header_contact">Contact Us</string>
+    <string name="header_resources_information">Resources and Information</string>
+    <string name="stress">Stress</string>
+    <string name="depression">Depression/Anxiety</string>
+    <string name="relationship">Relationship</string>
+    <string name="financial">Financial/Legal</string>
+    <string name="health">Health</string>
+    <string name="work">Work</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="register_now">Register Now!</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="home">Home</string>
+    <string name="welcome">Welcome</string>
+    <string name="assesment">Assessment</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="prompt_user_name">Username</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_new_password">Confirm New Password</string>
+    <string name="prompt_re_password">Verify Password</string>
+    <string name="prompt_company">Company</string>
+    <string name="prompt_answer">Answer</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="company_code">Company Code</string>
+    <string name="reminder_question">Reminder Question</string>
+    <string name="select_reminder_question">Select Reminder Question</string>
+    <string name="register">Register</string>
+    <string name="reset">Reset</string>
+    <string name="image_desc">No description</string>
+    <string name="my_stress">My Stress</string>
+    <string name="my_depression">My Depression</string>
+    <string name="my_relation">My Relationship</string>
+    <string name="resilency">Resilency</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="start_quiz">Start the Quiz Now</string>
+    <string name="quiz_result">Your test result is between 35&#8211;45</string>
+    <string name="stress_desc">Et mei habeo putant admodum, dicat utinam consectetuer ut vim, sit labores perfecto deterruisset cu. Debet ceteros detraxit ut vel, in sint oportere per, ne altera dissentiunt sea. Brute inermis has in. Et posse insolens nam, ut erant imperdiet eam. Sit diam sint duis an, duo illum affert semper ne, esse essent ut sed.</string>
+    <string name="contact_desc">Et mei habeo putant admodum, dicat utinam consectetuer ut vim, sit labores perfecto deterruisset cu. Debet ceteros detraxit ut vel, in sint oportere per, ne altera dissentiunt sea. Brute inermis has in. Et posse insolens nam, ut erant imperdiet eam. Sit diam sint duis an, duo illum affert semper ne, esse essent ut sed.
+
+Eros laoreet pri ex, hinc iriure pri ex, sea ad fuisset minimum. Fabellas accusata salutandi eu nam. Est invidunt singulis constituto ei, numquam rationibus definiebas no per. Sea ei habeo homero senserit, ei dolorem appetere dissentiunt vix.</string>
+    <string name="depression_directions">This 9-question screening test can help determine whether you might have signs or symptoms of depression. Use the results to decide if you need to see a doctor or other mental health professional to further discuss diagnosis and treatment of depression.</string>
+    <string name="depression_instruction">&lt;b>Instructions:&lt;/b> Answer the following questions as they relate to the previous 2 weeks. Rate how often have you been bothered by any of the following problems over the last two weeks. </string>
+    <string name="depression_expanded_directions">Expanded directions for Depression assessment:</string>
+    <!-- Depression Quiz Questions -->
+
+    <string name="depression_q1"> Little interest or pleasure in doing things</string>
+    <string name="depression_q2"> Feeling down, depressed, or hopeless </string>
+    <string name="depression_q3"> Trouble falling or staying asleep, or sleeping too much </string>
+    <string name="depression_q4"> Feeling tired or having little energy</string>
+    <string name="depression_q5"> Poor appetite or overeating </string>
+    <string name="depression_q6"> Feeling bad about yourself - or that you are a failur or have let yourself or your family down</string>
+    <string name="depression_q7"> Trouble concentrating on things, such as reading the newspaper or watching television</string>
+    <string name="depression_q8"> Moving or speaking so slowly that other people could have noticed? - being so fidgety or restless that you have been moving around a lot more than usual</string>
+    <string name="depression_q9"> Thoughts that you would be better off dead or of hurting yourself in some way</string>
+
+    <!-- Alcohol Quiz Questions -->
+    <!-- dont change name of string files , if changed please udpate the same in database EAPDatabase -->
+    <string name="alcohol_q1"> How often do you have a drink containing alcohol?</string>
+    <string name="alcohol_q2"> How many drinks containing alcohol do you have on a typical day when you are drinking?</string>
+    <string name="alcohol_q3"> How often do you have six or more drinks on one occasion?</string>
+    <string name="alcohol_q4"> How often during the last year have you found that you were not able to stop drinking once you had started?</string>
+    <string name="alcohol_q5"> How often during the last year have you failed to do what was normally expected from you because of drinking?</string>
+    <string name="alcohol_q6"> How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?</string>
+    <string name="alcohol_q7"> How often during the last year have you had a feeling of guilt or remorse after drinking?</string>
+    <string name="alcohol_q8"> How often during the last year have you been unable to remember what happened the night before because you had been drinking?</string>
+    <string name="alcohol_q9"> Have you or someone else been injured as a result of your drinking?</string>
+    <string name="alcohol_q10"> Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?</string>
+
+    <!-- Life Pilot Quiz Questions -->
+    <string name="life_pilot_q1"> Are there any legal matters in your life that are causing concern for you or your family?</string>
+    <string name="life_pilot_q2"> Do you need a will?</string>
+    <string name="life_pilot_q3"> Do engage in arguments about finances with those close to you?</string>
+    <string name="life_pilot_q4"> Do you find yourself worrying about finances more than 4 times a week?</string>
+    <string name="life_pilot_q5"> Are considering buying, refinancing, or selling a home anytime in the near future?</string>
+    <string name="life_pilot_q6"> Have you had a hard time doing your work because of your personal problems?</string>
+    <string name="life_pilot_q7"> Do you feel sad, unhappy, or low for most of the day nearly every day?</string>
+    <string name="life_pilot_q8"> Do you experience extreme unease and/or worry about many situations and experiences?</string>
+    <string name="life_pilot_q9"> Have you found that you have not been able to do what was normally expected of you because of your drinking or other drugs?</string>
+    <string name="life_pilot_q10"> Do you and your partner have a great deal of difficulty when it comes to communicating and solving problems together?</string>
+    <string name="life_pilot_q11"> Do you at times struggle to find appropriate child care for your children?</string>
+    <string name="life_pilot_q12"> Do you participate in the care for any elderly family members either living with you or living at another location?</string>
+    <!--<string name="life_pilot_q13">13. Have you considered using a Wellness coach for improving your health?</string>-->
+    <!--<string name="life_pilot_q14">14. Do use tobacco products at this time?</string>-->
+
+    <!-- Relationship Quiz Questions -->
+    <!-- dont change name of string files , if changed please udpate the same in database EAPDatabase -->
+    <string name="relationship_q1"> My partner and I are able to communicate with respect and not harshly.</string>
+    <string name="relationship_q2"> I completely trust my spouse.</string>
+    <string name="relationship_q3"> When I am alone with my partner I am relaxed and comfortable.</string>
+    <string name="relationship_q4"> My partner is there for me during difficult times.</string>
+    <string name="relationship_q5"> We have common interests.</string>
+    <string name="relationship_q6"> If we come to an issue upon which we do not agree, I am optimistic we will work out an agreeable solution.</string>
+    <string name="relationship_q7"> My partner treats me with care and tenderness.</string>
+    <string name="relationship_q8"> My partner listens to me.</string>
+    <string name="relationship_q9"> We have activities and friends outside the relationship.</string>
+    <string name="relationship_q10"> We have a lot of passion in our relationship.</string>
+    <string name="relationship_q11"> My partner likes to share his or her thoughts.</string>
+
+    <!-- Answers -->
+    <!-- Relationship Quiz Answers -->
+    <!-- dont change name of string files , if changed please udpate the same in database EAPDatabase -->
+    <string name="relationship_option_1">Never</string>
+    <string name="relationship_option_2">Sometimes</string>
+    <string name="relationship_option_3">Fairly often</string>
+    <string name="relationship_option_4">Very often</string>
+    <string name="relationship_option_5">Always</string>
+    <!-- Depression Quiz options -->
+    <string name="depression_option_1">Not at all</string>
+    <string name="depression_option_2">Several Days</string>
+    <string name="depression_option_3">More than half the days</string>
+    <string name="depression_option_4">Nearly every day</string>
+
+    <!-- Alcohol Quiz options -->
+    <string name="alcohol_option_1">Never</string>
+    <string name="alcohol_option_2">Monthly or less</string>
+    <string name="alcohol_option_3">2 to 4 times a month</string>
+    <string name="alcohol_option_4">2 to 3 times a week</string>
+    <string name="alcohol_option_5">4 or more times a week</string>
+    <string name="alcohol_option_6">1 or 2</string>
+    <string name="alcohol_option_7">3 or 4</string>
+    <string name="alcohol_option_8">5 or 6</string>
+    <string name="alcohol_option_9">7, 8, or 9</string>
+    <string name="alcohol_option_10">10 or more</string>
+    <string name="alcohol_option_11">Less than monthly</string>
+    <string name="alcohol_option_12">Monthly</string>
+    <string name="alcohol_option_13">Weekly</string>
+    <string name="alcohol_option_14">Daily or almost daily</string>
+    <string name="alcohol_option_15">No</string>
+    <string name="alcohol_option_16">Yes, but not in the last year</string>
+    <string name="alcohol_option_17">Yes, during the last year</string>
+
+    <!-- Life Pilot Quiz options -->
+    <string name="life_pilot_option_1">Yes</string>
+    <string name="life_pilot_option_2">No</string>
+
+    <string-array name="company_arrays">
+        <item selected="true">Google</item>
+        <item>Dell</item>
+        <item>Microsoft</item>
+        <item>Gateway</item>
+    </string-array>
+    <string-array name="arrays_reminder_questions">
+        <item selected="true">What is your mother\'s maiden name?</item>
+        <item>What was your first pet\'s name?</item>
+        <item>What is the name of the city you were born in?</item>
+        <item>What is the name of the high school you graduated from?</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Resources and Information</item>
+        <item>Assessments</item>
+        <item>Contact Us</item>
+        <item>Cascade Personal Advantage</item>
+        <item>My ID card</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/resources</item>
+        <item>@drawable/assessment</item>
+        <item>@drawable/contact</item>
+        <item>@drawable/life_advantage</item>
+        <item>@drawable/my_id</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string-array name="home_items">
+        <item>Counselling</item>
+        <item>Financial</item>
+        <item>Legal</item>
+        <item>Wellness</item>
+        <item>Child Care</item>
+        <item>Elder Care</item>
+        <item>Resource retrieval</item>
+    </string-array>
+    <string-array name="resources_items">
+        <item>Stress</item>
+        <item>Depression/Anxiety</item>
+        <item>Relationship</item>
+        <item>Financial/Legal</item>
+        <item>Health</item>
+        <item>Work</item>
+    </string-array>
+    <string-array name="quiz_questions_arrays">
+        <item>I exercise to the point of perspiration at least twice a week</item>
+        <item>I have at least 1 person who lives nearby from whom I can ask a favour</item>
+        <item>I eat at least one hot, balanced meal a day</item>
+        <item>I drink fewer than two cups of coffee (or tea or cola) a day</item>
+    </string-array>
+    <string-array name="quiz_options_arrays">
+        <item>Always True</item>
+        <item>Often True</item>
+        <item>Sometimes True</item>
+        <item>Seldom True"</item>
+        <item>Never True"</item>
+    </string-array>
+    
+    <string name="please_select_an_option">Please select an option.</string>
+	<string name="contact_us_note">Note: This is not a confidential form of communication</string>
+    <string name="click_here_to_access_life_pilot">Click here to access LifePilot Assessment</string>
+    <string name="eap_contact_sms">503&#8211;980&#8211;1777</string>
+    <string name="contact_us_prefilled_email">info@cascadecenters.com</string>
+    <string name="email_invalid_subject">Please enter subject for this mail</string>
+    <string name="privacy_policy">Privacy Policy and Terms &amp; Conditions</string>
+    <string name="agree_terms_conditions">I agree to the Privacy Policy and Terms &amp; Conditions</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="add_id_card">Add ID Card</string>
+    <string name="successfully_reset">Password reset successful!</string>
+    <string name="successfully_register">Registration successful!</string>
+    <string name="quiz_type">Quiz Type : </string>
+    <string name="quiz_date">Quiz Date : </string>
+    <string name="save_score">Would you like to save your score?</string>
+    <string name="legal_services">Legal Consultations</string>
+    <string name="my_assessments">My Assessments</string>
+    <string name="financial_coaching">Financial Coaching</string>
+    <string name="homeownership_program">Homeownership Program</string>
+    <string name="counseling">Counseling</string>
+    <string name="childcare">Childcare</string>
+    <string name="eldercare">Eldercare</string>
+    <string name="wellness">Wellness</string>
+    <string name="eap_contact_no">800&#8211;433&#8211;2320</string>
+    <string name="depression_dialog">Your assessment results indicate that you may be at risk for harming yourself or someone else. Please call 911 or go immediately to the nearest hospital emergency room. You can also contact your EAP at &lt;a href="tel:8004332320"&gt;800&#8211;433&#8211;2320&lt;/a&gt; or call the National Suicide Prevention Lifeline at 1&#8211;800&#8211;273&#8211;TALK ( &lt;a href="tel:18002738255"&gt;1&#8211;800&#8211;273&#8211;8255&lt;/a&gt;).</string>
+    <string name="finish">Finish</string>
+    <string name="here">here</string>
+    <string name="question_number_of_total">Question %1$s of %2$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="save">Save</string>
+    <string name="prompt_enter_name">Enter name</string>
+    <string name="prompt_enter_description">Enter description</string>
+    <string name="counselling">Counselling</string>
+    <string name="financial_1">Financial</string>
+    <string name="legal">Legal</string>
+    <string name="child_Care">Child Care</string>
+    <string name="elder_Care">Elder Care</string>
+    <string name="resource_retrieval">Resource retrieval</string>
+    <string name="cascade_centers">Cascadecenters.com</string>
+    <string name="cascade_centers_text">Cascade Centers</string>
+    <string name="eap_member_site">EAP Member Site</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="logout">Logout</string>
+    <string name="resources_info">Resources &amp; Info</string>
+    <string name="cascade_personal">Cascade Personal</string>
+    <string name="advantage">Advantage</string>
+    <string name="cascade_personal_advantage">Cascade Personal Advantage</string>
+    <string name="life_pilot">LifePilot</string>
+    <string name="life_pilot_assessment">LifePilot Assessment</string>
+    <string name="my_id_card">My ID Cards</string>
+    <string name="my_eap_services">EAP Benefit Match</string>
+    <string name="assesssments">Assessments</string>
+    <string name="send_email">Send Email</string>
+    <string name="prompt_mail_subject">Enter mail subject here</string>
+    <string name="prompt_mail_body">Enter mail body here</string>
+    <string name="call_us_now">Call us Now</string>
+    <string name="schedule_appointment">Schedule an Appointment</string>
+    <!--<string name="contact_us_description">EAP counselors are available by telephone 24 hours a day, 7 days a week, including holidays. Please contact us at 1–800–433–2320</string>-->
+    <string name="contact_us_description">EAP counselors are available by telephone 24 hours a day, 7 days a week, including holidays.</string>
+    <string name="my_eap">My EAP</string>
+    <string name="my_eap_services_text">My EAP Services</string>
+    <string name="resources">Resources</string>
+    <!-- Resources -->
+
+    <string name="stress_component_1">Breathing Techniques to Short circuit stress</string>
+    <string name="stress_component_2">How to Beat Serious Stress</string>
+    <string name="stress_component_3">Managing Emotional Reactions to Stress</string>
+    <string name="stress_component_4">Understanding Stress Health Connection</string>
+    <string name="depression_component_1">Understanding Depression</string>
+    <string name="depression_component_2">Depression and Your Health</string>
+    <string name="depression_component_3">How to Feel Good When Your Life isn’t Perfect</string>
+    <string name="depression_component_4">How Much Control do I Have Over My Anxiety?</string>
+    <string name="depression_component_5">How do I Cope with Anxiety?</string>
+    <string name="relationship_component_1">Making Time for Yourself and Your Family</string>
+    <string name="relationship_component_2">Listening Tips for Difficult Situation</string>
+    <string name="relationship_component_3">Opening Lines of Communications at Home</string>
+    <string name="relationship_component_4">Want to make marriage great?  Communicate.</string>
+    <string name="relationship_component_5">Military:  The Emotional Phases of Deployment</string>
+    <string name="finance_component_1">Budgeting Rules of Thumb</string>
+    <string name="finance_component_2">Start a New Summer Tradition:  The mid-year Financial Checkup</string>
+    <string name="finance_component_3">Budgeting to Meet Goals</string>
+    <string name="finance_component_4">Money Saving Tips That Work Wherever You Are Traveling</string>
+    <string name="finance_component_5">Preparing a Will</string>
+    <string name="finance_component_6">Family Law:  Selecting a Good Attorney</string>
+    <string name="health_component_1">Habits to Help you Look Good and Feel Terrific</string>
+    <string name="health_component_2">Living a Life in Balance</string>
+    <string name="health_component_3">A Real 8-Minute Fitness Routine</string>
+    <string name="work_component_1">Reducing Workplace Stress</string>
+    <string name="work_component_2">Seven Ways to Beat the Burnout Blues</string>
+    <string name="work_component_3">Clairfying Your Work Expectations</string>
+
+    <!-- My Relationship -->
+    <string name="relationship_directions">This 11-question screening test can help determine health of your current relationship. You can use the results to decide if you need to seek assistance to address any issues within your relationship.</string>
+    <string name="relationship_instruction">&lt;b>Instructions:&lt;/b> Please choose the answer that bests relates to your opinion about your relationship.</string>
+    <string name="relationship_expanded_directions">Expanded directions for Relationship assessment:</string>
+
+    <!-- Life Pilot -->
+    <string name="life_pilot_directions">This quick 12 question LifePilot assessment will help you determine what EAP services you need.</string>
+    <string name="life_pilot_instruction">Fill out the following questions truthfully. At the end of the questionnaire you will receive a recommendation on what EAP services might be useful to you.</string>
+    <string name="life_pilot_expanded_directions">Overhelmed with your choice of services? Not sure where to start? Wonder if you are missing an EAP benefit that might be useful?</string>
+
+    <!-- Alcohol -->
+    <string name="alcohol_directions">This 10-question screening test can help determine whether you might have problems with drinking alcohol. Use the results to decide if you need to see a doctor or other mental health professional to further discuss diagnosis and treatment of alcohol abuse, dependence or addiction.</string>
+    <string name="alcohol_instruction">&lt;b>Instructions:&lt;/b> The 10 items below refer to how you have behaved during the past year. For each item, indicate the statement that is most true for you, by checking the appropriate box next to the item.</string>
+    <string name="alcohol_expanded_directions">Expanded directions for Alcohol assessment:</string>
+
+    <!-- Depression Quiz Result -->
+    <string name="quiz_result_depression_0to4">Your screen results indicate that you have few or no symptoms of depression. \n\nPlease click here for additional information on Depression. \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320 \n\nRemember, this is NOT a diagnosis. This screen is not designed to provide a comprehensive assessment or diagnosis of depression.  Only a doctor or qualified mental health professional can make a diagnosis of any type of depression and recommend treatments.</string>
+    <string name="quiz_result_depression_5to9">Mild depression \n\nYour screen results are consistent with minimal symptoms of depression. If these symptoms are distressing to you or are distracting you at work, or home, you may benefit from seeing a counselor through your EAP or your physician for a complete evaluation. \n\nPlease click here for additional information on Depression.  \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320  \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of depression and recommend treatments.</string>
+    <string name="quiz_result_depression_10to14">Moderate depression \n\nYour screen results are consistent with moderate symptoms of depression. If these symptoms are distressing to you or are distracting you at work, or home, you may benefit from seeing a counselor through your EAP or your physician for a complete evaluation, as soon as practical. \n\nPlease click here for additional information on Depression.  \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320 \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of depression and recommend treatments.</string>
+    <string name="quiz_result_depression_11to19">Moderately severe depression \n\nYour screen results are consistent with many of the symptoms of depression. You are advised to see your physician or contact Cascade EAP immediately for a complete assessment. Although many individuals cope well with symptoms like yours, effective treatments for depression are available to help reduce your symptoms and improve your quality of life. A mental health professional or your physician can advise you about whether you can benefit from treatment and describe different treatment alternatives. \n\nPlease click here for additional information on Depression.  \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320  \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of depression and recommend treatments.</string>
+    <string name="quiz_result_depression_20to27">Severe depression \n\nYour screen results are consistent with many of the symptoms of depression. You are advised to see your physician or contact Cascade EAP immediately for a complete assessment. Although many individuals cope well with symptoms like yours, effective treatments for depression are available to help reduce your symptoms and improve your quality of life. A mental health professional or your physician can advise you about whether you can benefit from treatment and describe different treatment alternatives. \n\nPlease click here for additional information on Depression.  \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320  \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of depression and recommend treatments.</string>
+
+    <!-- Relationship Quiz Result -->
+    <string name="quiz_result_relationship_0to11">Your score indicates that your relationship may be in need of some professional assistance.  According to your answers there are some significant issues that need to be addressed in your relationship.  Your Employee Assistance Program can help you develop some effective tools for dealing with your problems and create healthier new patterns. Please contact us for recommendations. \n\nPlease click here for additional information on relationships.   \n\nPlease note that this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type and recommend treatments.</string>
+    <string name="quiz_result_relationship_12to32">Your score indicates that in general your sense of satisfaction in your relationship is solid.  But it appears that there may be some areas that can be improved on such as communication, appreciation, and support.   Such difficulties can be common in most relationships. But if they have been continuing for years or getting worse you may want to consider seeking out counseling.  Your Employee Assistance Program can help you develop some effective tools for dealing with your problems and create healthier new patterns. Please contact us for recommendations. \n\nYour Employee Assistance Program can help you develop some effective tools for dealing with your problems and create healthier new patterns.  Please contact us for recommendations. \n\nPlease click here for additional information on relationships.  \n\nPlease note that this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type and recommend treatments.</string>
+    <string name="quiz_result_relationship_33to44">Your score indicates that you have a strong sense of satisfaction in your relationship.  Congratulations!  According to the manner in which you answered the questions on this assessment your relationship appears to be stable and healthy.  Although you may occasionally experience a bump or two, you and your significant other appear to be able to expertly navigate these waters. \n\nPlease click here for additional information on relationships.  \n\nPlease note that this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type and recommend treatments.</string>
+
+    <!-- Alcohol Quiz Result -->
+    <string name="quiz_result_alcohol_0to8">You are in the low&#8211;risk range. \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of addiction or drinking problem and recommend treatments. \n\nNOTE: If you suspect that you have a drinking or drug problem, you should seek help from a doctor or the EAP counselor regardless of how you score on this screening test. \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320</string>
+    <string name="quiz_result_alcohol_9to">Your score indicates that you may have an alcohol problem and/or are engaging in harmful drinking. \n\nKeep in mind, help is available and there are many different treatments for alcoholism and alcohol abuse available. Please share your AUDIT Score with your EAP counselor or physician. \n\nRemember, this is NOT a diagnosis. Only a doctor or qualified mental health professional can make a diagnosis of any type of addiction or drinking problem and recommend treatments. \n\nNOTE: If you suspect that you have a drinking or drug problem, you should seek help from a doctor or mental health professional regardless of how you score on this screening test. \n\nPlease call your EAP, Cascade Centers, with any questions.  800&#8211;433&#8211;2320</string>
+
+    <!-- Life Pilot Quiz Result -->
+    <string name="quiz_result_life_pilot_no">Your results indicate that you might not be in need of a specific EAP service at this time.  Please feel free to contact us with any questions. \n\nRemember the EAP is always available for any concern including general resource retrieval. We have counselors available 24 hour a day, 7 days a week to take your call.</string>
+    <string name="quiz_result_life_pilot_yes">Your LifePilot score suggests that the following EAP services could be helpful for you:</string>
+    <string name="quiz_result_life_pilot_yes_1">Please click on the links below to learn more about the recommended services.</string>
+
+    <!-- Validations -->
+    <string name="validation_login_username">The username is not valid.</string>
+    <string name="validation_login_password">The password is not valid.</string>
+    <string name="validation_reg_confirm_password">Password and verify password did not match.</string>
+    <string name="validation_reg_company">The company or group name is not valid.</string>
+    <string name="validation_reg_answer">The answer to the challenge question is not valid.</string>
+    <string name="validation_reg_first_name">The first name is not valid.</string>
+    <string name="validation_reg_last_name">The last name is not valid.</string>
+    <string name="validation_reg_email">The email address is not valid.</string>
+    <string name="validation_reg_agreed">The user did not agree to the terms and conditions.</string>
+
+    <!-- Exceptions -->
+    <string name="exception_0">An unknown error occurred.</string>
+    <string name="exception_1">The username does not exists or is suspended.</string>
+    <string name="exception_2">The username does not exists under the provided group.</string>
+    <string name="exception_3">The username exists but it is a duplicate.</string>
+    <string name="exception_4">The user account has been suspended. This is usually the result of exceeding the limit of sign in attempts.</string>
+    <string name="exception_5">The password provided is not correct.</string>
+    <string name="exception_6">A group with the provided alias does not exist.</string>
+    <string name="exception_7">The group exists but it is a duplicate. This code should never occur.</string>
+    <string name="exception_8">The group exists but it is no longer active.</string>
+    <string name="exception_11">The answer to the challenge question or passphrase reminder is not correct.</string>
+
+    <!-- New EAP Services -->
+    <string name="counseling_session">Counseling Sessions</string>
+    <string name="crisis_support">Crisis Support</string>
+    <string name="legal_consultations">Legal Consultations</string>
+    <string name="identity_theft_services">Identity Theft Services</string>
+    <string name="personal_wellness">Personal Wellness</string>
+    <string name="counseling_desc">Problem Identification, assessment, and establishment of outcome goals</string>
+    <string name="crisis_desc">Cascade is available 24/7/365</string>
+    <string name="legal_desc">An initial 30 minute office or telephone consultation with 25% discount thereafter</string>
+    <string name="financial_desc">30 days of unlimited financial coaching</string>
+    <string name="childcare_desc">Assistance with childcare, education issues, behavioral difficulties, development concerns, and adoption information from newborns to the age of 18. </string>
+    <string name="elder_desc">Assistance in finding solutions to the aging needs of older adults and the family members caring for them such as housing, alternative living, home health, community services, legal concerns and medical issues.</string>
+    <string name="identity_desc">Up to a 60-minute free consultation with a highly trained Fraud Resolution Specialist™ (FRS).</string>
+    <string name="resource_desc">Vetted information and resource retrieval services.</string>
+    <string name="home_desc">The Enhanced Benefit Group Home Ownership Program offered by Cascade Centers EAP can help employees with even greater savings to make your dreams of home ownership more affordable than ever.</string>
+    <string name="wellness_desc">Access to wellness coaches, online tool, activity tracking, discounts, and more.</string>
+
+    <!-- EAP Service Details -->
+    <string name="service_detail_counseling">&lt;h2>Counseling&lt;/h2>&lt;p>The Employee Assistance Program (EAP) is a FREE and CONFIDENTIAL benefit that can assist employees and their eligible family members with any personal problems, large or small. Cascade offers face to face, phone sessions, or live video conference for problem identification, assessment, establishing outcome goals, recommendations, priorities and actions needed to reach goals. For example, you can receive assistance with concerns such as relationships, martial, family, depression, anxiety, and stress.&lt;/p> &lt;p>Contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> for a counseling.&lt;/p></string>
+    <string name="service_detail_crisis_support">&lt;h2>Crisis Support&lt;/h2>&lt;p>Masters level counselors are available 24/7 and immediately available for all callers.&lt;/p> &lt;p>&lt;b>Call&lt;/b> &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a>&lt;/p></string>
+    <string name="service_detail_legal">&lt;h2>Legal&lt;/h2> &lt;p>Employees and family members may receive one initial thirty-minute office or telephone consultation per separate legal matter (up to three per year) at no cost with a network attorney. If the member decides to retain the participating attorney after the initial consultation, the member will be provided with a preferred rate reduction of 25% from the attorneyâ€™s normal hourly rate.&lt;/p> &lt;h4>Information and assistance is available for the following:&lt;/h4> &lt;ul>&lt;li> Civil Matters&lt;/li> &lt;li> Consumer-Related Issues&lt;/li> &lt;li> Personal and Family&lt;/li> &lt;li> Business Concerns &lt;/li> &lt;li> IRS Matters &lt;/li> &lt;li> Income Tax Preparation&lt;/li> &lt;li> Wills and Estate Planning &lt;/li> &lt;li> Real Estate &lt;/li>&lt;/ul> &lt;p>Contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> for a legal consultation.&lt;/p></string>
+    <string name="service_detail_financial">&lt;h2>Financial Coaching&lt;/h2> &lt;p> Each covered member is eligible for 30 days of unlimited financial coaching at no-cost. Services are available for a variety of financial concerns and are provided by a network financial counselor. Coaches provide a needs analysis and online written action plan to help members achieve financial goals. Services are provided by experienced financial professionals and licensed CPAâ€™s. Additional financial coaching is available at a discounted rate.&lt;/p> &lt;h4>Financial coaches can help you:&lt;/h4> &lt;ul>&lt;li>Get out of Debt &lt;/li> &lt;li>Provide a Credit Analysis &lt;/li> &lt;li>Help develop a spending plan&lt;/li> &lt;li>Assist with retirement planning&lt;/li> &lt;li>Help you understand home buying or refinancing strategies &lt;/li> &lt;li>Assist with other money topics&lt;/li>&lt;/ul> &lt;p>Contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> for a financial consultation.&lt;/p></string>
+    <string name="service_detail_child_care">&lt;h2>Childcare&lt;/h2> &lt;p>Cascade provides assistance in finding solutions for childcare and education resources for your children.&lt;/p> &lt;b>Child Care&lt;/b> &lt;br> &lt;ul>&lt;li>Infant, Preschool and School Age &lt;/li> &lt;li>In-Home Child Care &lt;/li> &lt;li>Day Care Homes and Centers &lt;/li> &lt;li>Emergency/Back-up Care &lt;/li> &lt;li>Before/After-School Care &lt;/li> &lt;li>Weekend/Shift Work Schedules &lt;/li> &lt;li>Care for Special Needs Children&lt;/li> &lt;li>Summer Camps &lt;/li> &lt;li>Tip Sheets and Articles&lt;/li>&lt;/ul> &lt;br>&lt;br>&lt;b>Education&lt;/b>&lt;br> &lt;ul>&lt;li>Preschools&lt;/li> &lt;li>Private/Public Schools&lt;/li> &lt;li>After-School Programs&lt;/li> &lt;li>School Age Tip Sheets&lt;/li> &lt;li>Educational Consultants&lt;/li> &lt;li>College Bibliography&lt;/li> &lt;li>The College Process&lt;/li> &lt;li>Test Preparation&lt;/li> &lt;li>Financial Aid Resources&lt;/li> &lt;li>Private/Public/Community Colleges&lt;/li>&lt;/ul> &lt;p>To access this service, please contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> &lt;/p></string>
+    <string name="service_detail_elder_care">&lt;h2>Eldercare&lt;/h2> &lt;p>Cascade provides assistance in finding solutions to the aging needs of your family&lt;/p> &lt;ul>&lt;li> Health Care Options &lt;/li> &lt;li> Hospitals and Skilled Nursing &lt;/li> &lt;li> Transitional and Long-Term Care &lt;/li> &lt;li> Veterans and Rehabilitation Hospitals &lt;/li> &lt;li> Mail-Order Pharmacies &lt;/li> &lt;li> Living Concerns &lt;/li> &lt;li> Retirement Communities &lt;/li> &lt;li> Assisted and Independent Living &lt;/li> &lt;li> Alzheimerâ€™s Facilities &lt;/li>&lt;/ul> &lt;p>To access this service, please contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> &lt;/p></string>
+    <string name="service_detail_identity_theft">&lt;h2>Identity Theft Services&lt;/h2> &lt;p> Employees and family members receive up to a 60-minute free consultation with a highly trained Fraud Resolution Specialist™ (FRS). The FRS will conduct emergency response activities and assist members with restoring their identity, good credit and with the costly steps to dispute fraudulent debts, etc. Members also receive an Emergency Response Kit outlining actions and suggestions regarding Identity Theft Prevention and Restoration of the member’s damaged identity.&lt;/p> &lt;b>Consultation includes:&lt;/b> &lt;ul>&lt;li>Guidance immediately after discovery of the identity theft. &lt;/li> &lt;li>How to manage and contact credit accounts, ATM cards, checks, etc.&lt;/li> &lt;li>Forms to chart the steps you have taken in reporting the identity theft.&lt;/li> &lt;li>Assistance in resolving credit problems: credit reports, credit cards, electronic funds transfers, etc.&lt;/li> &lt;li>Assistance with specific problems: bank fraud, bankruptcy fraud, criminal violations, fake driver’s license, investment fraud, mail theft, passport fraud, phone fraud, social security number theft and 
+misuse, tax fraud.&lt;/li> &lt;li>Information on the applicable laws.&lt;/li> &lt;li>Provide written packet of information on Identity Theft: “When bad things happen to your good name.”&lt;/li>&lt;/ul>&lt;p>To access this service, please contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> &lt;/p></string>
+    <string name="service_detail_resource_retrieval">&lt;h2>Resource Retrieval&lt;/h2> &lt;p>Cascade offers information and resource retrieval services for todayâ€™s busy people. From dry-cleaners to dog-sitters, we help time-pressed employees and their families. We find you the information you need within two business-days of the call. This service saves you time by identifying, researching, and verifying information and resources for you.&lt;/p> &lt;p>To access this service, please contact Cascade at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> &lt;/p></string>
+    <string name="service_detail_home_ownership">&lt;h2>Homeownership&lt;/h2> &lt;p> he Enhanced Benefit Group Home Ownership Program offered by Cascade Centers EAP can help employees with even greater savings to make your dreams of home ownership more affordable than ever.&lt;/p> &lt;br>&lt;p>This is a NO COST, NO OBLIGATION program where you can receive FREE consultations in using this service and also take advantage of the substantial savings when you are looking to buy, sell, or refinance your home.&lt;/p> &lt;ul>&lt;li>Available to friends and family&lt;/li> &lt;li>Nationwide service&lt;/li>&lt;/ul> &lt;br>&lt;p>Some of the discounted services available in our "one stop shopping" network include:&lt;/p> &lt;ul>&lt;li>Over 200 loan programs&lt;/li> &lt;li>Real estate representation&lt;/li> &lt;li>Moving Services&lt;/li>&lt;/ul> &lt;br>&lt;p>To access this service, please contact Cascade at &lt;a href="tel:8665053244">866&#8211;505&#8211;3244&lt;/a> &lt;/p>&lt;/br>&lt;/br>&lt;/br></string>
+    <string name="service_detail_personal_wellness">&lt;h2>Personal Wellness&lt;/h2> &lt;p>Through Cascade EAP, you have immediate access to professional health coaches who provide unlimited solution-focused health and wellness coaching, and referrals to local resources.  You can receive on-going coaching, support, and information from a healthcare professional.&lt;/p> &lt;h4>Areas include:&lt;/h4> &lt;ul>&lt;li>Weight Management&lt;/li> &lt;li>Smoking Cessation&lt;/li> &lt;li>Stress Management&lt;/li> &lt;li>Nutrition &amp; Healthy Cooking&lt;/li> &lt;li>Pre &amp; Post Natal Care&lt;/li> &lt;li>Self- Care of Chronic Conditions&lt;/li>&lt;/ul> &lt;p>To get started with a health coach call Cascade EAP at &lt;a href="tel:18004332320">1&#8211;800&#8211;433&#8211;2320&lt;/a> &lt;/p></string>
+    <string name="you_already_on_this_screen">You are already on this screen.</string>
+    <string name="recomender_services">Recommended Services</string>
+    <string name="answer_the_question">Please answer the question.</string>
+    <string name="already_on_home_screen">You are already on home screen.</string>
+    <string name="your_score">Your Score</string>
+    <string name="sms_number">(503) 850-7721</string>
+
+</resources>

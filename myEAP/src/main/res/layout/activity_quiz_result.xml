@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_main"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_bg">
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_slidemenu" />
+    </RelativeLayout>
+
+
+    <com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        swipe:leftEdgeSwipeOffset="0dp"
+        android:layout_weight="1"
+        swipe:drag_edge="left"
+        swipe:rightEdgeSwipeOffset="0dp">
+    <LinearLayout
+        android:id="@+id/ll_swipe"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrl_quiz_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" >
+       <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+           <RelativeLayout
+               android:layout_width="@dimen/_150sdp"
+               android:layout_height="@dimen/_150sdp"
+               android:layout_gravity="center_horizontal"
+               android:gravity="center"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:layout_marginBottom="@dimen/_15sdp">
+
+               <ProgressBar
+                   android:id="@+id/progressbar_quiz_result"
+                   style= "?android:attr/progressBarStyleHorizontal"
+                   android:layout_width= "200dp"
+                   android:layout_height= "200dp"
+                   android:layout_centerInParent= "true"
+                   android:background="@drawable/result_bg"
+                   android:indeterminate="false"
+                   android:max="7"
+                   android:progress="0"
+                   android:padding="@dimen/_14sdp"
+                   android:progressDrawable="@drawable/circular_progress_bar"
+                   />
+
+               <LinearLayout
+                   android:layout_width="@dimen/_90sdp"
+                   android:layout_height="@dimen/_90sdp"
+                   android:padding="@dimen/_5sdp"
+                   android:layout_centerInParent="true"
+                   android:gravity="center"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:singleLine="true"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:textSize="@dimen/_13sdp"
+                       android:layout_marginTop="@dimen/_3sdp"
+                       android:fontFamily="@font/myriadpro_reqular"
+                       android:textColor="@color/black"
+                       android:text="@string/your_score"/>
+
+                   <TextView
+                      android:id="@+id/tv_score"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:singleLine="true"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:textSize="@dimen/_33sdp"
+                       android:textStyle="bold"
+                       android:fontFamily="@font/gotham_black"
+                       android:text="0"/>
+
+               </LinearLayout>
+           </RelativeLayout>
+
+           <TextView
+            android:id="@+id/txt_quiz_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/myriadpro_reqular"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btn_quiz_result_finish"
+            style="@style/BaseButton"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_15sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:textSize="@dimen/_17sdp"
+            android:background="@drawable/button_background"
+            android:text="@string/finish"
+            android:fontFamily="@font/gotham_black"
+            android:textColor="@android:color/white" />
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    </com.daimajia.swipe.SwipeLayout>
+
+    <LinearLayout
+        android:id="@+id/viewPagerCountDots"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:orientation="horizontal" />
+
+    <include android:id="@+id/footer" layout="@layout/footer"/>
+
+</LinearLayout>

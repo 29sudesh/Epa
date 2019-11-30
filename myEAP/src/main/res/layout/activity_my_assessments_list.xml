@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/lst_my_assessment_list"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:divider="@null"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/header_bg</item>
+    </style>
+
+    <style name="DefaultInputField" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_input_view_size</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey_light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_field_height</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/textfield_bg</item>
+        <item name="android:padding">@dimen/text_field_padding_left</item>
+    </style>
+    
+    <style name="SubjectBodyInputField" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_input_view_size</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey_light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_field_subject_body_height</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/textfield_bg</item>
+        <item name="android:padding">@dimen/text_field_padding_left</item>
+    </style>
+
+    <style name="BaseButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">@dimen/button_text_size_18</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/button_padding_left</item>
+        <item name="android:paddingRight">@dimen/button_padding_right</item>
+        <item name="android:textColor">@drawable/button_selector</item>
+    </style>
+
+    <style name="SquareButton">
+        <item name="android:textSize">@dimen/button_text_size_16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:textColor">@color/header_bg</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="GreenButton" parent="BaseButton">
+        <item name="android:background">@drawable/green</item>
+    </style>
+
+    <style name="BlueButton" parent="BaseButton">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="TransparentButton" parent="BaseButton">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MenuButton" parent="BaseButton">
+        <item name="android:layout_height">@dimen/button_height_menu</item>
+        <item name="android:paddingLeft">@dimen/button_padding_small</item>
+        <item name="android:paddingRight">@dimen/button_padding_small</item>
+        <item name="android:background">@color/screen_bg</item>
+    </style>
+    
+    <style name="MyEAPTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>
+        <!--<item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>-->
+    </style>
+
+    <style name="MyRadioButtonStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/gotham_black</item>
+        <item name="android:buttonTint" tools:ignore="NewApi">@drawable/my_compound_button_color_selector</item>
+    </style>
+
+</resources>

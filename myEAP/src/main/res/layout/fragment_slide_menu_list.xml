@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_left_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioGroup
+            android:id="@+id/rdg_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rdb_menu_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="true"
+                android:drawableLeft="@drawable/home"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/home"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rdb_menu_life_pilot"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/rdb_selector"-->
+                <!--android:button="@null"-->
+                <!--android:clickable="true"-->
+                <!--android:drawableLeft="@drawable/compass"-->
+                <!--android:drawablePadding="@dimen/menu_drawable_padding"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:padding="@dimen/menu_padding"-->
+                <!--android:text="@string/life_pilot"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="@dimen/menu_font_size"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<View-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="0.2dp"-->
+                <!--android:background="@android:color/white" />-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rdb_menu_contact_us"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/rdb_selector"-->
+                <!--android:button="@null"-->
+                <!--android:clickable="true"-->
+                <!--android:drawableLeft="@drawable/contact"-->
+                <!--android:drawablePadding="@dimen/menu_drawable_padding"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:padding="@dimen/menu_padding"-->
+                <!--android:text="@string/contact_us"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="@dimen/menu_font_size"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<View-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="0.2dp"-->
+                <!--android:textColor="@color/menu_devicer" />-->
+
+            <RadioButton
+                android:id="@+id/rdb_menu_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/facebook"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/facebook"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+            <RadioButton
+                android:id="@+id/rdb_menu_you_tube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/youtube"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/youtube"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+            <RadioButton
+                android:id="@+id/rdb_menu_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/twitter"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/twitter"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+
+            <RadioButton
+                android:id="@+id/rdb_menu_cascade_centers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/web"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/cascade_centers_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+            <RadioButton
+                android:id="@+id/rdb_menu_eap_member_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/web"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/eap_member_site"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+
+
+            <RadioButton
+                android:id="@+id/rdb_menu_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rdb_selector"
+                android:button="@null"
+                android:clickable="true"
+                android:drawableLeft="@drawable/logout"
+                android:drawablePadding="@dimen/menu_drawable_padding"
+                android:gravity="center_vertical"
+                android:padding="@dimen/menu_padding"
+                android:text="@string/logout"
+                android:textColor="@color/black"
+                android:textSize="@dimen/menu_font_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/menu_devicer" />
+        </RadioGroup>
+    </ScrollView>
+
+</LinearLayout>

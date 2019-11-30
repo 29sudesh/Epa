@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+        <!-- android:layout_below="@id/img_home_pic1" -->
+
+        <LinearLayout
+            android:id="@+id/lnr_home_life_pilot"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_btn"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_home_pic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitStart"
+            android:visibility="invisible"
+            android:src="@drawable/main_bkg" />
+
+
+
+        <TextView
+            android:id="@+id/txt_home_life_pilot_shortcut"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/img_home_pic1"
+            android:gravity="center"
+            android:text="@string/click_here_to_access_life_pilot"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/img_home_pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lnr_home_life_pilot"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/home_pic2"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/lnr_home_row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_home_pic2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_my_eap_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_myeap_services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/blue_btn" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_home_myeap_services"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/my_eap_services"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_assessments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_assessment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/home_assessment" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_home_assessment"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/assesssments"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/home_contact_us" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_home_contact_us"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/contact_us"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnr_home_row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lnr_home_row1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_cascade_advantage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_cascade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/home_cascade_advantage" />
+
+                <TextView
+                    android:id="@+id/txt_home_cascade_personal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_home_cascade"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/cascade_personal"
+                    android:textColor="@color/text_color_home" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_home_cascade_personal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/advantage"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_my_id_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_myid_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/home_my_id_card" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_home_myid_card"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/my_id_card"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlt_home_resources_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/img_home_resources"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/home_resource_info" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/img_home_resources"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/resources_info"
+                    android:textColor="@color/text_color_home" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_main"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_bg">
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_slidemenu" />
+      </RelativeLayout>
+
+
+    <com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        swipe:leftEdgeSwipeOffset="0dp"
+        android:layout_weight="1"
+        swipe:drag_edge="left"
+        swipe:rightEdgeSwipeOffset="0dp">
+        <LinearLayout
+            android:id="@+id/ll_swipe"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrl_quiz_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <RelativeLayout
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp">
+
+            <ProgressBar
+                android:id="@+id/progressbar_quiz_result"
+                style= "?android:attr/progressBarStyleHorizontal"
+                android:layout_width= "200dp"
+                android:layout_height= "200dp"
+                android:layout_centerInParent= "true"
+                android:background="@drawable/result_bg"
+                android:indeterminate="false"
+                android:max="7"
+                android:progress="0"
+                android:padding="@dimen/_14sdp"
+                android:progressDrawable="@drawable/circular_progress_bar"
+                />
+
+            <LinearLayout
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/myriadpro_reqular"
+                    android:textColor="@color/black"
+                    android:text="@string/your_score"/>
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="@dimen/_33sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/gotham_black"
+                    android:text="0"/>
+
+            </LinearLayout>
+          </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_quiz_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressbar_quiz_result"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/_15sdp"
+                android:linksClickable="true"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/myriadpro_reqular"
+                android:paddingRight="20dp"
+                android:text="@string/quiz_result_life_pilot_yes_1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            
+            <TextView
+                android:id="@+id/txt_quiz_result_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_quiz_result"
+                android:layout_marginBottom="15dp"
+                android:linksClickable="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="@dimen/_16sdp"
+                android:gravity="center_horizontal"
+                android:text="@string/recomender_services"
+                android:fontFamily="@font/gotham_black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/lnr_quiz_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_quiz_result_1"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_legal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gotham_black"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/legal_services"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_financial"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gotham_black"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/financial_coaching"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_homeownership"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gotham_black"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/homeownership_program"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_counselling"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:fontFamily="@font/gotham_black"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/counseling"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_child_care"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gotham_black"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/child_Care"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_elder_care"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gotham_black"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/elder_Care"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_quiz_result_wellness"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:fontFamily="@font/gotham_black"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/wellness"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_quiz_result_callus"
+            style="@style/BlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:padding="10dp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:background="@drawable/button_background"
+            android:textSize="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/call_us_now"
+            android:fontFamily="@font/gotham_black"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_quiz_result_finish"
+            style="@style/BaseButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/gotham_black"
+            android:background="@drawable/button_background"
+            android:textSize="@dimen/_17sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:padding="10dp"
+            android:text="@string/finish"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    </com.daimajia.swipe.SwipeLayout>
+    <LinearLayout
+        android:id="@+id/viewPagerCountDots"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:orientation="horizontal" />
+    <include android:id="@+id/footer" layout="@layout/footer"/>
+
+</LinearLayout>

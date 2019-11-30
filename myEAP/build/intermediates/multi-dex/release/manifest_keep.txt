@@ -1,0 +1,2 @@
+# Referenced at E:\freelancer\EAP_Android-master\myEAP\build\intermediates\manifests\full\release\AndroidManifest.xml:20
+-keep class com.eap.lifepilot.application.EAPApplication { <init>(...); }

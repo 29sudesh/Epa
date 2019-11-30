@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bkg"
+    android:layout_width="match_parent"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_bkg"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- stuff inside layout -->
+            <LinearLayout
+                android:id="@+id/layout_home_opt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_eap_benefit_match"
+                    style="@style/BlueButton"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/_17sdp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/gotham_black"
+                    android:text="@string/my_eap_services"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_my_eap"
+                    style="@style/BlueButton"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/gotham_black"
+                    android:text="@string/my_eap"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_resources"
+                    style="@style/BlueButton"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/gotham_black"
+                    android:text="@string/resources"
+                    android:textSize="@dimen/_17sdp"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_contact_us"
+                    style="@style/BlueButton"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/gotham_black"
+                    android:textSize="@dimen/_17sdp"
+                    android:text="@string/contact_us"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_home_pic1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:visibility="visible"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:padding="@dimen/_10sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginVertical="@dimen/_16sdp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/cc_logo" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

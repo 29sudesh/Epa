@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:id="@+id/lnr_add_new_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_new_id_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_pic1" />
+
+        <EditText
+            android:id="@+id/edt_new_id_name"
+            style="@style/DefaultInputField"
+            android:layout_marginTop="10dp"
+            android:hint="@string/prompt_enter_name"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edt_new_id_description"
+            style="@style/DefaultInputField"
+            android:layout_marginTop="10dp"
+            android:hint="@string/prompt_enter_description"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_new_id_save"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="40dp"
+                android:layout_marginRight="@dimen/field_top_margin"
+                android:layout_weight="0.50"
+                android:background="@drawable/blue"
+                android:text="@string/save"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_new_id_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="40dp"
+                android:layout_weight="0.50"
+                android:background="@drawable/green"
+                android:text="@string/cancel"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

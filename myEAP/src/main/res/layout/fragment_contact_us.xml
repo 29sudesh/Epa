@@ -1,0 +1,129 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/header_bg"
+    android:orientation="vertical">
+    <include layout="@layout/header_slidemenu" android:id="@+id/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/ic_contect_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:background="@color/fade"
+        android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_contactus_subject"
+                style="@style/DefaultInputField"
+                android:hint="@string/prompt_mail_subject"
+                android:visibility="gone"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edt_contactus_body"
+                style="@style/SubjectBodyInputField"
+                android:layout_below="@id/edt_contactus_subject"
+                android:layout_marginTop="15dp"
+                android:gravity="top"
+                android:visibility="gone"
+                android:hint="@string/prompt_mail_body"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="1000"
+                android:maxLines="3"
+                android:scrollHorizontally="false" />
+
+            <TextView
+                android:id="@+id/txt_contactus_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_contactus_body"
+                android:visibility="gone"
+                android:text="@string/contact_us_note" />
+
+            <Button
+                android:id="@+id/btn_contactus_sendemail"
+                style="@style/BlueButton"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_17sdp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/gotham_black"
+                android:text="@string/send_email"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_contactus_scheduleappointment"
+                style="@style/BlueButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/_17sdp"
+                android:fontFamily="@font/gotham_black"
+                android:background="@drawable/button_background"
+                android:text="@string/schedule_appointment"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/txt_contactus_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/myriadpro_reqular"
+                android:text="@string/contact_us_description"
+                android:textSize="@dimen/_11sdp" />
+
+            <Button
+                android:id="@+id/btn_contactus_callus"
+                style="@style/BlueButton"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:fontFamily="@font/gotham_black"
+                android:background="@drawable/button_background"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:textSize="@dimen/_17sdp"
+                android:text="@string/call_us_now"
+                android:textColor="@android:color/white" />
+    </LinearLayout>
+    </LinearLayout>
+        <ImageView
+            android:id="@+id/img_home_pic2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/app_name"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:src="@drawable/cc_logo" />
+    </LinearLayout>
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer"/>
+
+</LinearLayout>

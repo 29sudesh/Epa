@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/txt_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/txt_alert_dialog"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_alert_dialog_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/vw_divider"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/dismiss"
+        android:textColor="@color/header_bg"
+        android:textSize="17sp" />
+
+</RelativeLayout>

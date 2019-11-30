@@ -1,0 +1,70 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/rlt_list_item_resource"
+android:layout_width="match_parent"
+android:layout_height="@dimen/_45sdp"
+    android:layout_marginVertical="@dimen/_3sdp"
+android:background="@android:color/transparent" >
+
+<ImageView
+    android:id="@+id/img_list_item_service"
+    android:layout_width="@dimen/_45sdp"
+    android:layout_height="@dimen/_45sdp"
+    android:padding="@dimen/_5sdp"
+    android:scaleType="fitXY"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/ic_home" />
+
+<ImageView
+    android:id="@+id/img_list_item_service_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="5dp"
+    android:visibility="gone"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/services_list_detail" />
+
+<TextView
+    android:id="@+id/txt_list_item_service_heading"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:layout_marginStart="@dimen/_50sdp"
+    android:layout_marginLeft="@dimen/_50sdp"
+    android:textSize="@dimen/_13sdp"
+    android:gravity="center_vertical"
+    android:text="@string/counseling_session"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:fontFamily="@font/gotham_black"
+    android:textColor="@color/white" />
+
+<TextView
+    android:id="@+id/txt_list_item_service_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_toLeftOf="@+id/img_list_item_service_detail"
+    android:layout_toRightOf="@id/img_list_item_service"
+    android:gravity="center_vertical"
+    android:ellipsize="end"
+    android:maxLines="3"
+    android:visibility="gone"
+    android:layout_marginBottom="5dp"
+    android:layout_below="@+id/txt_list_item_service_heading"
+    android:text="@string/counseling_session"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="@color/service_description" />
+
+<View
+    android:id="@+id/vw_divider"
+    android:layout_width="@dimen/_110sdp"
+    android:layout_height="@dimen/_2sdp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="@dimen/_50sdp"
+    android:layout_marginStart="@dimen/_50sdp"
+    android:background="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eap.lifepilot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-sdk -->
+12    <!-- android:minSdkVersion="16" -->
+13    <!-- android:targetSdkVersion="19" /> -->
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:11:5-67
+15-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:11:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:12:5-81
+16-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:13:5-80
+17-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:14:5-79
+18-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:14:22-76
+19
+20    <application
+20-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:16:5-150:19
+21        android:name="com.eap.lifepilot.application.EAPApplication"
+21-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:17:9-68
+22        android:allowBackup="true"
+22-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:18:9-35
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] C:\Users\Sudesh Bishnoi\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:19:9-43
+26        android:label="@string/app_name"
+26-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:21:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:20:9-54
+28        android:testOnly="true"
+29        android:theme="@style/MyEAPTheme"
+29-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:23:9-42
+30        android:usesCleartextTraffic="true" >
+30-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:22:9-44
+31        <activity
+31-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:25:9-34:20
+32            android:name="com.eap.lifepilot.activities.LoginActivity"
+32-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:26:13-70
+33            android:label="@string/app_name"
+33-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:27:13-45
+34            android:screenOrientation="portrait" >
+34-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:28:13-49
+35            <intent-filter>
+35-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:29:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:30:17-69
+36-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:30:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:32:17-77
+38-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:35:9-39:57
+42            android:name="com.eap.lifepilot.activities.RegistrationActivity"
+42-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:36:13-77
+43            android:label="@string/app_name"
+43-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:37:13-45
+44            android:screenOrientation="portrait"
+44-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:38:13-49
+45            android:windowSoftInputMode="stateHidden" />
+45-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:39:13-54
+46        <activity
+46-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:40:9-44:57
+47            android:name="com.eap.lifepilot.fragments.WebviewFragment"
+47-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:41:13-71
+48            android:label="@string/app_name"
+48-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:42:13-45
+49            android:screenOrientation="portrait"
+49-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:43:13-49
+50            android:windowSoftInputMode="stateHidden" />
+50-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:44:13-54
+51        <activity
+51-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:45:9-49:57
+52            android:name="com.eap.lifepilot.fragments.ContactUsFragment"
+52-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:46:13-73
+53            android:label="@string/app_name"
+53-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:47:13-45
+54            android:screenOrientation="portrait"
+54-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:48:13-49
+55            android:windowSoftInputMode="stateHidden" />
+55-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:49:13-54
+56        <activity
+56-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:50:9-54:57
+57            android:name="com.eap.lifepilot.activities.ForgotPasswordActivity"
+57-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:51:13-79
+58            android:label="@string/app_name"
+58-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:52:13-45
+59            android:screenOrientation="portrait"
+59-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:53:13-49
+60            android:windowSoftInputMode="stateHidden" />
+60-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:54:13-54
+61        <activity
+61-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:55:9-67:20
+62            android:name="com.eap.lifepilot.activities.HomeActivity"
+62-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:56:13-69
+63            android:label="@string/app_name"
+63-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:57:13-45
+64            android:screenOrientation="portrait"
+64-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:58:13-49
+65            android:windowSoftInputMode="stateHidden" >
+65-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:59:13-54
+66
+67            <!-- <intent-filter> -->
+68            <!-- <action android:name="android.intent.action.MAIN" /> -->
+69
+70
+71            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+72            <!-- </intent-filter> -->
+73
+74        </activity>
+75        <activity
+75-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:68:9-72:57
+76            android:name="com.eap.lifepilot.activities.ResourcesActivity"
+76-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:69:13-74
+77            android:label="@string/app_name"
+77-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:70:13-45
+78            android:screenOrientation="portrait"
+78-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:71:13-49
+79            android:windowSoftInputMode="stateHidden" />
+79-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:72:13-54
+80        <activity
+80-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:73:9-77:57
+81            android:name="com.eap.lifepilot.activities.ResourceComponentsActivity"
+81-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:74:13-83
+82            android:label="@string/app_name"
+82-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:75:13-45
+83            android:screenOrientation="portrait"
+83-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:76:13-49
+84            android:windowSoftInputMode="stateHidden" />
+84-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:77:13-54
+85        <activity
+85-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:78:9-82:57
+86            android:name="com.eap.lifepilot.activities.WebViewActivity"
+86-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:79:13-72
+87            android:label="@string/app_name"
+87-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:80:13-45
+88            android:screenOrientation="portrait"
+88-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:81:13-49
+89            android:windowSoftInputMode="stateHidden" />
+89-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:82:13-54
+90        <activity
+90-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:83:9-87:57
+91            android:name="com.eap.lifepilot.activities.MyEAPServicesActivity"
+91-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:84:13-78
+92            android:label="@string/app_name"
+92-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:85:13-45
+93            android:screenOrientation="portrait"
+93-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:86:13-49
+94            android:windowSoftInputMode="stateHidden" />
+94-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:87:13-54
+95        <activity
+95-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:88:9-92:57
+96            android:name="com.eap.lifepilot.activities.AssessmentActivity"
+96-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:89:13-75
+97            android:label="@string/app_name"
+97-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:90:13-45
+98            android:screenOrientation="portrait"
+98-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:91:13-49
+99            android:windowSoftInputMode="stateHidden" />
+99-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:92:13-54
+100        <activity
+100-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:93:9-97:57
+101            android:name="com.eap.lifepilot.activities.QuizIntroActivity"
+101-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:94:13-74
+102            android:label="@string/app_name"
+102-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:95:13-45
+103            android:screenOrientation="portrait"
+103-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:96:13-49
+104            android:windowSoftInputMode="stateHidden" />
+104-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:97:13-54
+105        <activity
+105-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:98:9-102:57
+106            android:name="com.eap.lifepilot.activities.MyIDCardListActivity"
+106-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:99:13-77
+107            android:label="@string/app_name"
+107-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:100:13-45
+108            android:screenOrientation="portrait"
+108-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:101:13-49
+109            android:windowSoftInputMode="stateHidden" />
+109-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:102:13-54
+110        <activity
+110-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:103:9-107:57
+111            android:name="com.eap.lifepilot.activities.AddNewIDActivity"
+111-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:104:13-73
+112            android:label="@string/app_name"
+112-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:105:13-45
+113            android:screenOrientation="portrait"
+113-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:106:13-49
+114            android:windowSoftInputMode="stateHidden" />
+114-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:107:13-54
+115        <activity
+115-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:108:9-112:57
+116            android:name="com.eap.lifepilot.activities.IDCardImageActivity"
+116-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:109:13-76
+117            android:label="@string/app_name"
+117-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:110:13-45
+118            android:screenOrientation="portrait"
+118-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:111:13-49
+119            android:windowSoftInputMode="stateHidden" />
+119-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:112:13-54
+120        <activity
+120-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:113:9-117:57
+121            android:name="com.eap.lifepilot.activities.QuizActivity"
+121-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:114:13-69
+122            android:label="@string/app_name"
+122-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:115:13-45
+123            android:screenOrientation="portrait"
+123-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:116:13-49
+124            android:windowSoftInputMode="stateHidden" />
+124-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:117:13-54
+125        <activity
+125-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:118:9-122:57
+126            android:name="com.eap.lifepilot.activities.QuizResultActivity"
+126-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:119:13-75
+127            android:label="@string/app_name"
+127-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:120:13-45
+128            android:screenOrientation="portrait"
+128-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:121:13-49
+129            android:windowSoftInputMode="stateHidden" />
+129-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:122:13-54
+130        <activity
+130-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:123:9-127:57
+131            android:name="com.eap.lifepilot.activities.LifePilotQuizResultActivity"
+131-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:124:13-84
+132            android:label="@string/app_name"
+132-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:125:13-45
+133            android:screenOrientation="portrait"
+133-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:126:13-49
+134            android:windowSoftInputMode="stateHidden" />
+134-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:127:13-54
+135        <activity
+135-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:128:9-132:57
+136            android:name="com.eap.lifepilot.activities.MyAssessmentsListActivity"
+136-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:129:13-82
+137            android:label="@string/app_name"
+137-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:130:13-45
+138            android:screenOrientation="portrait"
+138-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:131:13-49
+139            android:windowSoftInputMode="stateHidden" />
+139-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:132:13-54
+140        <activity
+140-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:133:9-137:57
+141            android:name="com.eap.lifepilot.activities.MyEAPServiceDetailActivity"
+141-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:134:13-83
+142            android:label="@string/app_name"
+142-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:135:13-45
+143            android:screenOrientation="portrait"
+143-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:136:13-49
+144            android:windowSoftInputMode="stateHidden" />
+144-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:137:13-54
+145        <activity
+145-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:139:9-143:57
+146            android:name="com.eap.lifepilot.activities.PersonalAdvantageActivity"
+146-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:140:13-82
+147            android:label="@string/app_name"
+147-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:141:13-45
+148            android:screenOrientation="portrait"
+148-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:142:13-49
+149            android:windowSoftInputMode="stateHidden" />
+149-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:143:13-54
+150        <activity
+150-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:145:9-149:57
+151            android:name="com.eap.lifepilot.activities.MyEAPServicesWebviewActivity"
+151-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:146:13-85
+152            android:label="@string/app_name"
+152-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:147:13-45
+153            android:screenOrientation="portrait"
+153-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:148:13-49
+154            android:windowSoftInputMode="stateHidden" />
+154-->E:\freelancer\EAP_Android-master\myEAP\src\main\AndroidManifest.xml:149:13-54
+155    </application>
+156
+157</manifest>

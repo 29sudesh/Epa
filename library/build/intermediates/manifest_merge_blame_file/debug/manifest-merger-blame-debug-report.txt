@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nostra13.universalimageloader"
+4    android:versionCode="38"
+5    android:versionName="1.9.3" > <!-- <uses-sdk -->
+6    <!-- android:minSdkVersion="5" -->
+7    <!-- android:targetSdkVersion="19" /> -->
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->E:\freelancer\EAP_Android-master\library\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->E:\freelancer\EAP_Android-master\library\src\main\AndroidManifest.xml
+11
+12</manifest>

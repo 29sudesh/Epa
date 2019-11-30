@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_160sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginStart="@dimen/_7sdp"
+    android:layout_marginLeft="@dimen/_7sdp"
+    android:layout_gravity="top|left|start"
+    android:background="@color/fade"
+    android:gravity="top|left|start"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:text="@string/facebook"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:fontFamily="@font/gotham_black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/youtube"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:fontFamily="@font/gotham_black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/twitter"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:singleLine="true"
+            android:fontFamily="@font/gotham_black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_cascade_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/cascade_centers_text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:singleLine="true"
+            android:fontFamily="@font/gotham_black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_eap_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/eap_member_site"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:singleLine="true"
+            android:fontFamily="@font/gotham_black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/logout"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:fontFamily="@font/gotham_black"/>
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

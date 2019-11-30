@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <com.eap.lifepilot.custom_views.CustomImageViewForZoom
+        android:id="@+id/img_id_card_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:scrollbarFadeDuration="3000"
+        android:scrollbars="horizontal|vertical"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

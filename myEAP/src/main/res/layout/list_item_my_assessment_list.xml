@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlt_list_item_my_assessment_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rlt_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_assessment_list_bordershape" >
+
+        <TextView
+            android:id="@+id/txt_list_item_my_aseesment_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/header_bg"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_list_item_my_aseesment_quiz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/txt_list_item_my_aseesment_score"
+            android:text="@string/quiz_type" />
+
+        <TextView
+            android:id="@+id/txt_list_item_my_aseesment_quiz_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/txt_list_item_my_aseesment_quiz1"
+            android:textColor="@color/header_bg" />
+
+        <TextView
+            android:id="@+id/txt_list_item_my_aseesment_quiz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_list_item_my_aseesment_quiz1"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txt_list_item_my_aseesment_score"
+            android:text="@string/quiz_date" />
+
+        <TextView
+            android:id="@+id/txt_list_item_my_aseesment_quiz_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_list_item_my_aseesment_quiz1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txt_list_item_my_aseesment_quiz2"
+            android:textColor="@color/header_bg" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/rlt_border"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

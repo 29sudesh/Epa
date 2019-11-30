@@ -1,0 +1,4 @@
+#Fri Oct 04 03:51:38 IST 2019
+base.0=E\:\\freelancer\\EAP_Android-master\\myEAP\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

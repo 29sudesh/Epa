@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/rl_quiz_swipe"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_above="@+id/txt_quiz_question_counter"
+        >
+
+
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:fontFamily="@font/myriadpro_reqular"
+        android:textSize="@dimen/_16sdp"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/answer_the_question"/>
+
+    <TextView
+        android:id="@+id/txt_quiz_question_counter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/myriadpro_reqular"
+        android:layout_above="@+id/viewPagerCountDots"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/viewPagerCountDots"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_quiz_next"
+        style="@style/BlueButton"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/next" />
+
+</RelativeLayout>

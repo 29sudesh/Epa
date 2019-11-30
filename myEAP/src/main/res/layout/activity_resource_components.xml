@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/header_bg" >
+<include
+    android:id="@+id/header"
+    layout="@layout/header_slidemenu" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_resource_bg"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/lst_resource_components"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:background="@android:color/transparent" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/img_resource_components_pic1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:visibility="visible"
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_16sdp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cc_logo" />
+
+    <include
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/_50sdp"
+        layout="@layout/footer" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/header_bg"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_slidemenu" />
+
+    <LinearLayout
+        android:id="@+id/lnr_activity_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:background="@color/white"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer"
+        />
+
+</RelativeLayout>

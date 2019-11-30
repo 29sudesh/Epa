@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_65sdp"
+    >
+    <!--android:id="@+id/rlt_header"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:background="@color/header_bg"
+        android:alpha="0.4"
+        android:layout_above="@+id/vw_header_divider"
+        >
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rlt_header_image_click"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/img_header"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:padding="@dimen/_8sdp"-->
+                <!--android:contentDescription="@string/app_name"-->
+                <!--android:src="@drawable/header_slide_menu_white" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_header"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text=""-->
+            <!--android:layout_marginHorizontal="@dimen/_45sdp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/_17sdp"-->
+            <!--android:fontFamily="@font/gotham_black"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textStyle="bold" />-->
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlt_header"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_above="@+id/vw_header_divider"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlt_header_image_click"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentLeft="true"
+            >
+
+            <ImageView
+                android:id="@+id/img_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_10sdp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/header_slide_menu_white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginHorizontal="@dimen/_45sdp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/gotham_black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+
+
+    <View
+        android:id="@+id/vw_header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

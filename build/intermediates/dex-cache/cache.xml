@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/russellpatterson/AndroidStudioProjects/MyEAP/myEAP/build/intermediates/exploded-aar/MyEAP/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a46f3dfca7e5eb00de087e1a545298a84b62f8b">
+        <dex dex="/Users/russellpatterson/AndroidStudioProjects/MyEAP/myEAP/build/intermediates/pre-dexed/debug/MyEAP-library-unspecified_79261a25ca0504deb1c2fe952ea8ec9752ea9096.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/russellpatterson/AndroidStudioProjects/MyEAP/myEAP/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/russellpatterson/AndroidStudioProjects/MyEAP/myEAP/build/intermediates/pre-dexed/debug/android-support-v4_664ec218a727827516e61a458ab2254e551570a4.jar" />
+    </item>
+
+</items>

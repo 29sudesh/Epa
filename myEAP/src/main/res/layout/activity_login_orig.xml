@@ -1,0 +1,86 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/screen_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edt_login_email"
+        style="@style/DefaultInputField"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="20dp"
+        android:hint="@string/prompt_user_name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edt_login_password"
+        style="@style/DefaultInputField"
+        android:layout_below="@+id/edt_login_email"
+        android:layout_marginTop="@dimen/field_top_margin"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/chk_login_remember_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_login_password"
+        android:layout_marginTop="@dimen/field_top_margin"
+        android:text="@string/remember_me"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chk_login_remember_me"
+        android:layout_marginTop="@dimen/field_top_margin"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_login_logIn"
+            style="@style/GreenButton"
+            android:layout_marginRight="@dimen/field_top_margin"
+            android:layout_weight="0.60"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/btn_login_forgot_password"
+            style="@style/BlueButton"
+            android:layout_weight="0.40"
+            android:text="@string/forgot_password" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/register_block"
+        android:contentDescription="@string/image_desc" />
+
+    <Button
+        android:id="@+id/btn_login_registration"
+        style="@style/TransparentButton"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="@dimen/field_top_margin"
+        android:gravity="center"
+        android:text="@string/register_now" />
+
+</RelativeLayout>

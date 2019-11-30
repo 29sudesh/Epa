@@ -1,0 +1,42 @@
+-injars 'E:\freelancer\EAP_Android-master\myEAP\build\intermediates\transforms\jarMerging\release\0.jar'
+-outjars 'E:\freelancer\EAP_Android-master\myEAP\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'E:\sdk\build-tools\28.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'E:\freelancer\EAP_Android-master\myEAP\build\intermediates\multi-dex\release\components.flags'
+
+
+# Referenced at E:\freelancer\EAP_Android-master\myEAP\build\intermediates\manifests\full\release\AndroidManifest.xml:20
+-keep class com.eap.lifepilot.application.EAPApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

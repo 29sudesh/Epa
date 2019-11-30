@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:id="@+id/rl_quiz_swipe"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ScrollView
+        android:id="@+id/sl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txt_quiz_question_counter"
+        android:layout_marginBottom="20dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txt_quiz_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rdg_quiz_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_quiz_question"
+                android:layout_marginTop="20dp" >
+
+                <RadioButton
+                    android:id="@+id/rdb_quiz_option_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rdb_quiz_option_two"
+                    android:layout_width="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rdb_quiz_option_three"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/rdb_quiz_option_four"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/rdb_quiz_option_five"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone" />
+            </RadioGroup>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txt_quiz_question_counter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/viewPagerCountDots"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/viewPagerCountDots"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_quiz_next"
+        style="@style/BlueButton"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/next" />
+
+</RelativeLayout>

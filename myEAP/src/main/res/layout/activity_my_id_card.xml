@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_height"
+        layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/lst_my_id_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_my_id_card"
+        android:layout_below="@id/header" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_my_id_card"
+        style="@style/BlueButton"
+        android:layout_above="@+id/footer"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add_id_card" />
+
+    <include
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_footer_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/footer" />
+
+</RelativeLayout>
